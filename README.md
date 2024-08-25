@@ -1,24 +1,16 @@
-# currency
-
-## Project setup
+# Конвертер валют
+**API проекта имеет ограничение в 1500 запросов в месяц, если не приходит ответ от сервера, скорее всего превышен лимит**
+## Настройка проекта:
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+### Запуск локально в дев режиме:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Билд проекта:
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
