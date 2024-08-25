@@ -45,6 +45,16 @@ export default {
   top: 45px;
   background-color: white;
   border-radius: 4px;
+  height: 600px;
+  overflow-y: scroll;
+  &::-webkit-scrollbar{
+    width: 3px;
+    background:white;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #cdcdcd;
+    border: none;
+  }
 }
 .bold {
   font-weight: bold;
